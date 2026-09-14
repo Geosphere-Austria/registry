@@ -1,0 +1,26 @@
+<https://registry.inspire.gv.at/dataprovider/0134> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/vcard/ns#VCard>  <https://registry.inspire.gv.at/dataprovider-vcard:2> .
+<https://registry.inspire.gv.at/dataprovider/0134> <http://www.w3.org/2006/vcard/ns#fn> "GeoSphere Austria"  <https://registry.inspire.gv.at/dataprovider-vcard:2> .
+<https://registry.inspire.gv.at/dataprovider/0134> <http://www.w3.org/2006/vcard/ns#org> _:org0134  <https://registry.inspire.gv.at/dataprovider-vcard:2> .
+_:org0134 <http://www.w3.org/2006/vcard/ns#organisation-name> "GeoSphere Austria - Zentrale"  <https://registry.inspire.gv.at/dataprovider-vcard:2> .
+_:org0134 <http://www.w3.org/2006/vcard/ns#organisation-unit> "head quarter"  <https://registry.inspire.gv.at/dataprovider-vcard:2> .
+
+<https://registry.inspire.gv.at/dataprovider/0134> <http://www.w3.org/2006/vcard/ns#adr> _:adr0134  <https://registry.inspire.gv.at/dataprovider-vcard:2> .
+_:adr0134 <http://www.w3.org/2006/vcard/ns#street-address> "Hohe Warte 38"  <https://registry.inspire.gv.at/dataprovider-vcard:2> .
+_:adr0134 <http://www.w3.org/2006/vcard/ns#locality> "Vienna"  <https://registry.inspire.gv.at/dataprovider-vcard:2> .
+_:adr0134 <http://www.w3.org/2006/vcard/ns#postal-code> "1190"  <https://registry.inspire.gv.at/dataprovider-vcard:2> .
+_:adr0134 <http://www.w3.org/2006/vcard/ns#country-name> "Austria"  <https://registry.inspire.gv.at/dataprovider-vcard:2> .
+_:adr0134 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/vcard/ns#Work>  <https://registry.inspire.gv.at/dataprovider-vcard:2> .
+
+<https://registry.inspire.gv.at/dataprovider/0134> <http://www.w3.org/2006/vcard/ns#geo> _:geo0134  <https://registry.inspire.gv.at/dataprovider-vcard:2> .
+_:geo0134 <http://www.w3.org/2006/vcard/ns#latitude> "48.2485"  <https://registry.inspire.gv.at/dataprovider-vcard:2> .
+_:geo0134 <http://www.w3.org/2006/vcard/ns#longitude> "16.3558"  <https://registry.inspire.gv.at/dataprovider-vcard:2> .
+
+<https://registry.inspire.gv.at/dataprovider/0134> <http://www.w3.org/2006/vcard/ns#tel> _:tel0134  <https://registry.inspire.gv.at/dataprovider-vcard:2> .
+_:tel0134 <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "+43 1 36026"  <https://registry.inspire.gv.at/dataprovider-vcard:2> .
+_:tel0134 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/vcard/ns#Work>  <https://registry.inspire.gv.at/dataprovider-vcard:2> .
+
+<https://registry.inspire.gv.at/dataprovider/0134> <http://www.w3.org/2006/vcard/ns#email> <mailto:kontakt@geosphere.at>  <https://registry.inspire.gv.at/dataprovider-vcard:2> .
+<https://registry.inspire.gv.at/dataprovider/0134> <http://www.w3.org/2006/vcard/ns#logo> <https://upload.wikimedia.org/wikipedia/commons/c/ce/GeoSphere_Austria.svg>  <https://registry.inspire.gv.at/dataprovider-vcard:2> .
+
+
+

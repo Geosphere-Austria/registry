@@ -886,7 +886,10 @@ const n = {
     schema: 'https://schema.org/',
     geosparql: 'http://www.opengis.net/ont/geosparql#',
     prov: 'http://www.w3.org/ns/prov#',
-    adms: 'http://www.w3.org/ns/adms#'
+    adms: 'http://www.w3.org/ns/adms#',
+    vcard: 'http://www.w3.org/2006/vcard/ns#',
+    org: 'http://www.w3.org/ns/org#',
+    reg: 'http://purl.org/linked-data/registry#'
 };
 
 const PREF_LABEL = [n.skos + 'prefLabel'];
@@ -902,7 +905,7 @@ const CITATION = [n.dcterms + 'bibliographicCitation'];
 const REF_LINKS = [n.dcterms + 'references'];
 const RELATIONS_1 = [n.skos + 'broader', n.skos + 'narrower', n.skos + 'related'];
 const RELATIONS_2 = [n.skos + 'exactMatch', n.skos + 'closeMatch', n.skos + 'relatedMatch', n.skos + 'broadMatch', n.skos + 'narrowMatch'];
-const RELATIONS_3 = [n.dbpo + 'category', n.owl + 'sameAs', n.dcterms + 'relation', n.dcterms + 'hasPart', n.dcterms + 'isPartOf'];
+const RELATIONS_3 = [n.dbpo + 'category', n.owl + 'sameAs', n.dcterms + 'relation', n.dcterms + 'hasPart', n.dcterms + 'isPartOf', n.reg + 'predecessor', n.reg + 'successor'];
 const WEB_LINK = [n.dcterms + 'source', n.dcterms + 'isReferencedBy', n.dcterms + 'subject', n.dcterms + 'conformsTo', n.dcterms + 'isRequiredBy', n.dcterms + 'identifier', n.foaf + 'isPrimaryTopicOf', n.schema + 'subjectOf', n.foaf + 'page', n.schema + 'hasMap'];
 const ICONS = [n.foaf + 'isPrimaryTopicOf', n.schema + 'subjectOf', n.foaf + 'page', n.dcterms + 'isPartOf', n.dcterms + 'hasPart'];
 const appIcons = ['<i class="fab fa-twitter"></i>', '<i class="fas fa-blog"></i>', '<i class="fab fa-youtube"></i>', '<i class="fab fa-wikipedia-w"></i>'];
@@ -931,9 +934,95 @@ const TECHNICAL_LIST = {
     //creator: CREATOR
 };
 
-function rdfTS(v) { //create RDF narrowers for download
-    document.getElementById('irdfQuery').value = "CONSTRUCT {?s ?p ?o} WHERE { GRAPH ?g {VALUES ?s {" + v + "} ?s ?p ?o}}";
-    document.getElementById('irdfForm').submit();
+/*  // Turtle format for vcard blank nodes
+    function rdfTS(v) { // create RDF narrowers for download
+    const prefixHeader = Object.entries(n).map(([p, uri]) => `PREFIX ${p}: <${uri}>`).join('\n');
+    const query = `${prefixHeader}
+        CONSTRUCT {
+            ?s ?p ?o . ?o ?p1 ?o1 . ?o1 ?p2 ?o2 .
+        } WHERE {
+            GRAPH ?g {
+                VALUES ?s {${v}} ?s ?p ?o .
+                OPTIONAL {?o ?p1 ?o1 . FILTER(isBlank(?o)) OPTIONAL {?o1 ?p2 ?o2 . FILTER(isBlank(?o1))}}
+            }
+        }`;
+    fetch(ENDPOINT, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
+            'Accept': 'text/turtle; charset=utf-8'
+        },
+        body: new URLSearchParams({ query: query })
+    })
+    .then(res => res.blob())
+    .then(blob => {
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        const rawUri = v.match(/<([^>]+)>/)?.[1] || v;
+        const fileName = rawUri
+            .replace('https://registry.inspire.gv.at/codelist/', '')
+            .replace('https://registry.inspire.gv.at/', '')
+            .replace(/\//g, '_');
+        a.download = (fileName || 'export') + '.ttl';
+        document.body.appendChild(a);
+        a.click();
+        a.remove();
+        URL.revokeObjectURL(url);
+    });
+} */
+
+function rdfTS(v) { // create RDF narrowers for download
+    const prefixHeader = Object.entries(n).map(([p, uri]) => `PREFIX ${p}: <${uri}>`).join('\n');
+    const query = `${prefixHeader}
+        CONSTRUCT {
+            ?s ?p ?o . ?o ?p1 ?o1 . ?o1 ?p2 ?o2 .
+        } WHERE {
+            GRAPH ?g {
+                VALUES ?s {${v}} ?s ?p ?o .
+                OPTIONAL {?o ?p1 ?o1 . FILTER(isBlank(?o)) OPTIONAL {?o1 ?p2 ?o2 . FILTER(isBlank(?o1))}}
+            }
+        }`;
+    fetch(ENDPOINT, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
+            'Accept': 'application/rdf+xml; charset=utf-8'
+        },
+        body: new URLSearchParams({ query: query })
+    })
+    .then(res => res.text())
+    .then(xmlText => {
+        const xmlDocument = new DOMParser().parseFromString(xmlText, 'application/xml');
+        const rdfNamespace = n.rdf;
+        const parseError = xmlDocument.getElementsByTagName('parsererror').length > 0;
+
+        if (!parseError) {
+            Array.from(xmlDocument.getElementsByTagNameNS(rdfNamespace, 'Description')).forEach(description => {
+                if (description.parentNode.localName !== 'RDF') {
+                    description.removeAttributeNS(rdfNamespace, 'about');
+                    description.removeAttributeNS(rdfNamespace, 'ID');
+                }
+            });
+        }
+
+        const blob = new Blob([
+            parseError ? xmlText : new XMLSerializer().serializeToString(xmlDocument)
+        ], { type: 'application/rdf+xml' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        const rawUri = v.match(/<([^>]+)>/)?.[1] || v;
+        const fileName = rawUri
+            .replace('https://registry.inspire.gv.at/codelist/', '')
+            .replace('https://registry.inspire.gv.at/', '')
+            .replace(/\//g, '_');
+        a.download = (fileName || 'export') + '.xml';
+        document.body.appendChild(a);
+        a.click();
+        a.remove();
+        URL.revokeObjectURL(url);
+    });
 }
 
 //************set the "details page" to view a single concept ***********************************************************************
@@ -1048,7 +1137,6 @@ function details(divID, uri) { //build the web page content
                         $('#altLabel').after($appsInsert);
                     }
                 }
-
                 
                 const $detailsWrap = $('#' + divID);
                 $detailsWrap.append($('<hr>'));
@@ -1129,12 +1217,18 @@ function createFrontPart(divID, uri, data, props) {
                 case 'prefLabel':
                     pL = setUserLang(Array.from(ul).join('|').replace(/  <span class="lang">/g, '@').replace(/<\/span>/g, ''));
                     const codelist = uri.split('/').slice(0, -1).join('/');
-                    
+                    const status_obj = data.results.bindings.filter(b => b.p.value === 'http://www.w3.org/ns/adms#status');
+                    const status = `${status_obj.length > 0 ? status_obj.map(s => s.o.value) : ''}`;
+
                     html += `<ol class="breadcrumb mt-3" style="margin-left: -12px;">
                         <li class="breadcrumb-item"><a href="${BASE}">registry</a></li>
                         <li class="breadcrumb-item"><a href="${BASE}?uri=${encodeURIComponent(codelist)}">${escapeHtml(codelist.split('/').pop())}</a></li>
                         <li class="breadcrumb-item active">${escapeHtml(pL)}</li>
+                        <li>&nbsp;&nbsp;${status == '' || status === 'http://inspire.ec.europa.eu/registry/status/valid'
+                            ?'':'<span style="display: inline-block; padding: 4px 6px; font-size: 10px; font-weight: bold; line-height: 1; color: white; background-color: red; border-radius: 3px; text-align: center; white-space: nowrap;">'+status.replace('http://inspire.ec.europa.eu/registry/status/','')+'</span>' 
+                        }</li>
                     </ol>`;
+
                         
                     html += `<h1 id="prefLabel" class="mt-4">${escapeHtml(pL)}</h1>`;
 
@@ -1195,7 +1289,7 @@ function createFrontPart(divID, uri, data, props) {
                     if (html.search('<h4') == -1) {
                         html += '<hr><h4 style="margin-bottom: 1rem;">Concept relations</h4>';
                     }
-                    html += '<table><tr><td class="skosRel' + i.search('Match') + ' skosRel">' + i.replace(n.skos, '').replace(n.geosparql, '').replace(n.prov, '').replace(n.dcterms, '') + '</td><td class="skosRelUl"><ul><li>' + shortenText(Array.from(ul).join('</li><li>')) + '</li></ul></td></tr></table>';
+                    html += '<table><tr><td class="skosRel' + i.search('Match') + ' skosRel">' + i.replace(n.skos, '').replace(n.geosparql, '').replace(n.prov, '').replace(n.dcterms, '').replace(n.reg, '') + '</td><td class="skosRelUl"><ul><li>' + shortenText(Array.from(ul).join('</li><li>')) + '</li></ul></td></tr></table>';
                     break;
                 case 'picture':
                     insertImage(Array.from(ul).map(a => a.split('\"')[1]), 'image_links');
@@ -1267,7 +1361,7 @@ function shortenText(htmlText) {
     ];
     for (const [name, prefix] of abbrevList) {
         htmlText = htmlText.split('>' + prefix).map(a => a.replace('<', ` (${name})<`)).join('>').replace(` (${name})`, '');
-    }
+    } console.log(htmlText);
     return htmlText;
 }
 

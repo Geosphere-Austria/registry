@@ -1,0 +1,505 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.w3.org/ns/adms#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://registry.inspire.gv.at/dataprovider:2> {
+    <https://registry.inspire.gv.at/dataprovider/0001> a skos:Concept ;
+        dcterms:created "2025-10-16T19:40:05.735000+00:00"^^xsd:dateTime ;
+        skos:definition "Website: https://www.ages.at/"@de ;
+        skos:inScheme <https://registry.inspire.gv.at/dataprovider> ;
+        skos:notation "0001" ;
+        skos:prefLabel "Österreichische Agentur für Gesundheit und Ernährungssicherheit GmbH (AGES)"@de ;
+        skos:topConceptOf <https://registry.inspire.gv.at/dataprovider> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/dataprovider/0002> a skos:Concept ;
+        dcterms:created "2025-10-16T19:40:05.735000+00:00"^^xsd:dateTime ;
+        skos:definition "Website: https://www.bev.gv.at/"@de ;
+        skos:inScheme <https://registry.inspire.gv.at/dataprovider> ;
+        skos:notation "0002" ;
+        skos:prefLabel "Bundesamt fürr Eich- und Vermessungswesen (BEV)"@de ;
+        skos:topConceptOf <https://registry.inspire.gv.at/dataprovider> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/dataprovider/0003> a skos:Concept ;
+        dcterms:created "2025-10-16T19:40:05.735000+00:00"^^xsd:dateTime ;
+        skos:definition "Website: http://www.bmf.gv.at/"@de ;
+        skos:inScheme <https://registry.inspire.gv.at/dataprovider> ;
+        skos:notation "0003" ;
+        skos:prefLabel "Bundesministerium für Finanzen (BMF)"@de ;
+        skos:topConceptOf <https://registry.inspire.gv.at/dataprovider> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/dataprovider/0005> a skos:Concept ;
+        dcterms:created "2025-10-16T19:40:05.735000+00:00"^^xsd:dateTime ;
+        skos:definition "Website: https://www.bmluk.gv.at/"@de ;
+        skos:inScheme <https://registry.inspire.gv.at/dataprovider> ;
+        skos:notation "0005" ;
+        skos:prefLabel "Bundesministerium für Land- und Forstwirtschaft, Klima- und Umweltschutz, Regionen und Wasserwirtschaft (BMLUK)"@de ;
+        skos:topConceptOf <https://registry.inspire.gv.at/dataprovider> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/dataprovider/0006> a skos:Concept ;
+        dcterms:created "2025-10-16T19:40:05.735000+00:00"^^xsd:dateTime ;
+        dcterms:relation <https://registry.inspire.gv.at/codelist/SpecificHazardTypeValue>,
+            <https://registry.inspire.gv.at/codelist/forestInventoryTypeValue> ;
+        skos:definition "Website: https://www.bfw.gv.at/"@de ;
+        skos:inScheme <https://registry.inspire.gv.at/dataprovider> ;
+        skos:notation "0006" ;
+        skos:prefLabel "Bundesforschungs- und Ausbildungszentrum für Wald, Naturgefahren und Landschaft (BFW)"@de ;
+        skos:topConceptOf <https://registry.inspire.gv.at/dataprovider> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/dataprovider/0008> a skos:Concept ;
+        dcterms:created "2025-10-16T19:40:05.735000+00:00"^^xsd:dateTime ;
+        dcterms:relation <https://registry.inspire.gv.at/codelist/AustrianNatureProtectionSchema>,
+            <https://registry.inspire.gv.at/codelist/Biotoptypen_AT>,
+            <https://registry.inspire.gv.at/codelist/LISALandCoverClassValue>,
+            <https://registry.inspire.gv.at/codelist/Naturraumregionen>,
+            <https://registry.inspire.gv.at/codelist/NaturraumregionenSTMK>,
+            <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172>,
+            <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S322>,
+            <https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330>,
+            <https://registry.inspire.gv.at/codelist/ZoneTypeCodeAt>,
+            <https://registry.inspire.gv.at/codelist/generalisierteHabitatkomplexe>,
+            <https://registry.inspire.gv.at/codelist/specialisedZoneType>,
+            <https://registry.inspire.gv.at/codelist/specialisedZoneTypeStmk> ;
+        skos:definition "Website: https://www.umweltbundesamt.at/"@de ;
+        skos:inScheme <https://registry.inspire.gv.at/dataprovider> ;
+        skos:notation "0008" ;
+        skos:prefLabel "Umweltbundesamt GmbH"@de ;
+        skos:topConceptOf <https://registry.inspire.gv.at/dataprovider> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/dataprovider/0009> a skos:Concept ;
+        dcterms:created "2025-10-16T19:40:05.735000+00:00"^^xsd:dateTime ;
+        dcterms:relation <https://registry.inspire.gv.at/codelist/SpecificExposedElementTypeGZP>,
+            <https://registry.inspire.gv.at/codelist/specificExposedElementTypeWLV> ;
+        skos:definition "Website: https://www.die-wildbach.at/"@de ;
+        skos:inScheme <https://registry.inspire.gv.at/dataprovider> ;
+        skos:notation "0009" ;
+        skos:prefLabel "Forsttechnischer Dienst für Wildbach- und Lawinenverbauung (WLV)"@de ;
+        skos:topConceptOf <https://registry.inspire.gv.at/dataprovider> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/dataprovider/0010> a skos:Concept ;
+        dcterms:created "2025-10-16T19:40:05.735000+00:00"^^xsd:dateTime ;
+        skos:definition "Website: https://www.bmimi.gv.at/"@de ;
+        skos:inScheme <https://registry.inspire.gv.at/dataprovider> ;
+        skos:notation "0010" ;
+        skos:prefLabel "Bundesministerium für Innovation, Mobilität und Infrastruktur (BMIMI)"@de ;
+        skos:topConceptOf <https://registry.inspire.gv.at/dataprovider> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/dataprovider/0011> a skos:Concept ;
+        dcterms:created "2025-10-16T19:40:05.735000+00:00"^^xsd:dateTime ;
+        skos:definition "Website: https://www.asfinag.at/"@de ;
+        skos:inScheme <https://registry.inspire.gv.at/dataprovider> ;
+        skos:notation "0011" ;
+        skos:prefLabel "Autobahnen- und Schnellstraßen-Finanzierungs-Aktiengesellschaft (ASFINAG)"@de ;
+        skos:topConceptOf <https://registry.inspire.gv.at/dataprovider> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/dataprovider/0012> a skos:Concept ;
+        dcterms:created "2025-10-16T19:40:05.735000+00:00"^^xsd:dateTime ;
+        skos:definition "Website: https://www.austrocontrol.at/"@de ;
+        skos:inScheme <https://registry.inspire.gv.at/dataprovider> ;
+        skos:notation "0012" ;
+        skos:prefLabel "Austro Control"@de ;
+        skos:topConceptOf <https://registry.inspire.gv.at/dataprovider> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/dataprovider/0013> a skos:Concept ;
+        dcterms:created "2025-10-16T19:40:05.735000+00:00"^^xsd:dateTime ;
+        skos:definition "Website: https://infrastruktur.oebb.at/"@de ;
+        skos:inScheme <https://registry.inspire.gv.at/dataprovider> ;
+        skos:notation "0013" ;
+        skos:prefLabel "ÖBB-Infrastruktur AG (ÖBB Infra)"@de ;
+        skos:topConceptOf <https://registry.inspire.gv.at/dataprovider> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/dataprovider/0014> a skos:Concept ;
+        dcterms:created "2025-10-16T19:40:05.735000+00:00"^^xsd:dateTime ;
+        skos:definition "Website: https://www.viadonau.org/"@de ;
+        skos:inScheme <https://registry.inspire.gv.at/dataprovider> ;
+        skos:notation "0014" ;
+        skos:prefLabel "via donau - Österreichische Wasserstraßen-GmbH (viadonau)"@de ;
+        skos:topConceptOf <https://registry.inspire.gv.at/dataprovider> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/dataprovider/0015> a skos:Concept ;
+        dcterms:created "2025-10-16T19:40:05.735000+00:00"^^xsd:dateTime ;
+        skos:definition "Website: https://www.geologie.ac.at/"@de ;
+        skos:inScheme <https://registry.inspire.gv.at/dataprovider> ;
+        skos:notation "0015" ;
+        skos:prefLabel "Geologische Bundesanstalt (GBA)"@de ;
+        skos:topConceptOf <https://registry.inspire.gv.at/dataprovider> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/retired> .
+
+    <https://registry.inspire.gv.at/dataprovider/0018> a skos:Concept ;
+        dcterms:created "2025-10-16T19:40:05.735000+00:00"^^xsd:dateTime ;
+        dcterms:relation <https://registry.inspire.gv.at/codelist/bglLandUseValue> ;
+        skos:definition "Website: https://www.burgenland.at/"@de ;
+        skos:inScheme <https://registry.inspire.gv.at/dataprovider> ;
+        skos:notation "0018" ;
+        skos:prefLabel "Land Burgenland / Amt der Burgenländischen Landesregierung"@de ;
+        skos:topConceptOf <https://registry.inspire.gv.at/dataprovider> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/dataprovider/0019> a skos:Concept ;
+        dcterms:created "2025-10-16T19:40:05.735000+00:00"^^xsd:dateTime ;
+        dcterms:relation <https://registry.inspire.gv.at/codelist/ktnLandUseValue> ;
+        skos:definition "Website: https://www.ktn.gv.at/"@de ;
+        skos:inScheme <https://registry.inspire.gv.at/dataprovider> ;
+        skos:notation "0019" ;
+        skos:prefLabel "Land Kärnten / Amt der Kärntner Landesregierung"@de ;
+        skos:topConceptOf <https://registry.inspire.gv.at/dataprovider> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/dataprovider/0021> a skos:Concept ;
+        dcterms:created "2025-10-16T19:40:05.735000+00:00"^^xsd:dateTime ;
+        dcterms:relation <https://registry.inspire.gv.at/codelist/BiotopTypeWildlifeCorridor>,
+            <https://registry.inspire.gv.at/codelist/PlanTypeNameValue>,
+            <https://registry.inspire.gv.at/codelist/ooeLandUseValue> ;
+        skos:definition "Website: https://www.land-oberoesterreich.gv.at/"@de ;
+        skos:inScheme <https://registry.inspire.gv.at/dataprovider> ;
+        skos:notation "0021" ;
+        skos:prefLabel "Land Oberösterreich / Amt der Oberösterreichischen Landesregierung"@de ;
+        skos:topConceptOf <https://registry.inspire.gv.at/dataprovider> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/dataprovider/0022> a skos:Concept ;
+        dcterms:created "2025-10-16T19:40:05.735000+00:00"^^xsd:dateTime ;
+        dcterms:relation <https://registry.inspire.gv.at/codelist/sbgLandUseValue> ;
+        skos:definition "Website: https://www.salzburg.gv.at/"@de ;
+        skos:inScheme <https://registry.inspire.gv.at/dataprovider> ;
+        skos:notation "0022" ;
+        skos:prefLabel "Land Salzburg / Amt der Salzburger Landesregierung"@de ;
+        skos:topConceptOf <https://registry.inspire.gv.at/dataprovider> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/dataprovider/0023> a skos:Concept ;
+        dcterms:created "2025-10-16T19:40:05.735000+00:00"^^xsd:dateTime ;
+        dcterms:relation <https://registry.inspire.gv.at/codelist/stmLandUseValue> ;
+        skos:definition "Website: https://www.verwaltung.steiermark.at/"@de ;
+        skos:inScheme <https://registry.inspire.gv.at/dataprovider> ;
+        skos:notation "0023" ;
+        skos:prefLabel "Land Steiermark / Amt der Steiermärkischen Landesregierung"@de ;
+        skos:topConceptOf <https://registry.inspire.gv.at/dataprovider> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/dataprovider/0024> a skos:Concept ;
+        dcterms:created "2025-10-16T19:40:05.735000+00:00"^^xsd:dateTime ;
+        skos:definition "Website: https://www.tirol.gv.at/"@de ;
+        skos:inScheme <https://registry.inspire.gv.at/dataprovider> ;
+        skos:notation "0024" ;
+        skos:prefLabel "Land Tirol / Amt der Tiroler Landesregierung"@de ;
+        skos:topConceptOf <https://registry.inspire.gv.at/dataprovider> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/dataprovider/0025> a skos:Concept ;
+        dcterms:created "2025-10-16T19:40:05.735000+00:00"^^xsd:dateTime ;
+        dcterms:relation <https://registry.inspire.gv.at/codelist/vbgLandUseValue> ;
+        skos:definition "Website: https://vorarlberg.at/"@de ;
+        skos:inScheme <https://registry.inspire.gv.at/dataprovider> ;
+        skos:notation "0025" ;
+        skos:prefLabel "Land Vorarlberg / Amt der Vorarlberger Landesregierung"@de ;
+        skos:topConceptOf <https://registry.inspire.gv.at/dataprovider> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/dataprovider/0027> a skos:Concept ;
+        dcterms:created "2025-10-16T19:40:05.735000+00:00"^^xsd:dateTime ;
+        skos:definition "Website: https://www.statistik.at/"@de ;
+        skos:inScheme <https://registry.inspire.gv.at/dataprovider> ;
+        skos:notation "0027" ;
+        skos:prefLabel "Statistik Austria"@de ;
+        skos:topConceptOf <https://registry.inspire.gv.at/dataprovider> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/dataprovider/0033> a skos:Concept ;
+        dcterms:created "2025-10-16T19:40:05.735000+00:00"^^xsd:dateTime ;
+        skos:definition "Website: https://www.salzburg-ag.at/"@de ;
+        skos:inScheme <https://registry.inspire.gv.at/dataprovider> ;
+        skos:notation "0033" ;
+        skos:prefLabel "Salzburg AG für Energie, Verkehr & Telekommunikation (Salzburg AG)"@de ;
+        skos:topConceptOf <https://registry.inspire.gv.at/dataprovider> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/dataprovider/0038> a skos:Concept ;
+        dcterms:created "2025-10-16T19:40:05.735000+00:00"^^xsd:dateTime ;
+        skos:definition "Website: https://www.zamg.ac.at/"@de ;
+        skos:inScheme <https://registry.inspire.gv.at/dataprovider> ;
+        skos:notation "0038" ;
+        skos:prefLabel "Zentralanstalt für Meteorologie und Geodynamik (ZAMG)"@de ;
+        skos:topConceptOf <https://registry.inspire.gv.at/dataprovider> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/retired> .
+
+    <https://registry.inspire.gv.at/dataprovider/0043> a skos:Concept ;
+        dcterms:created "2025-10-16T19:40:05.735000+00:00"^^xsd:dateTime ;
+        dcterms:relation <https://registry.inspire.gv.at/codelist/DirectiveRelevance>,
+            <https://registry.inspire.gv.at/codelist/OgdCategoryAustria> ;
+        skos:definition "Website: https://www.bundeskanzleramt.gv.at/"@de ;
+        skos:inScheme <https://registry.inspire.gv.at/dataprovider> ;
+        skos:notation "0043" ;
+        skos:prefLabel "Bundeskanzleramt (BKA)"@de ;
+        skos:topConceptOf <https://registry.inspire.gv.at/dataprovider> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/dataprovider/0046> a skos:Concept ;
+        dcterms:created "2025-10-16T19:40:05.735000+00:00"^^xsd:dateTime ;
+        dcterms:relation <https://registry.inspire.gv.at/codelist/noeLandUseValue> ;
+        skos:definition "Website: https://www.noe.gv.at/"@de ;
+        skos:inScheme <https://registry.inspire.gv.at/dataprovider> ;
+        skos:notation "0046" ;
+        skos:prefLabel "Land Niederösterreich / Amt der Niederösterreichischen Landesregierung"@de ;
+        skos:topConceptOf <https://registry.inspire.gv.at/dataprovider> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/dataprovider/0049> a skos:Concept ;
+        dcterms:created "2025-10-16T19:40:05.735000+00:00"^^xsd:dateTime ;
+        skos:definition "Website: http://www.bmlv.gv.at/"@de ;
+        skos:inScheme <https://registry.inspire.gv.at/dataprovider> ;
+        skos:notation "0049" ;
+        skos:prefLabel "Bundesministerium für Landesverteidigung (BMLV)"@de ;
+        skos:topConceptOf <https://registry.inspire.gv.at/dataprovider> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/dataprovider/0051> a skos:Concept ;
+        dcterms:created "2025-10-16T19:40:05.735000+00:00"^^xsd:dateTime ;
+        skos:definition "Website: https://www.bmwet.gv.at/"@de ;
+        skos:inScheme <https://registry.inspire.gv.at/dataprovider> ;
+        skos:notation "0051" ;
+        skos:prefLabel "Bundesministerium für Wirtschaft, Energie und Tourismus (BMWET)"@de ;
+        skos:topConceptOf <https://registry.inspire.gv.at/dataprovider> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/dataprovider/0052> a skos:Concept ;
+        dcterms:created "2025-10-16T19:40:05.735000+00:00"^^xsd:dateTime ;
+        skos:definition "Website: https://www.wien.gv.at/"@de ;
+        skos:inScheme <https://registry.inspire.gv.at/dataprovider> ;
+        skos:notation "0052" ;
+        skos:prefLabel "Land Wien / Amt der Wiener Landesregierung"@de ;
+        skos:topConceptOf <https://registry.inspire.gv.at/dataprovider> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/dataprovider/0056> a skos:Concept ;
+        dcterms:created "2025-10-16T19:40:05.735000+00:00"^^xsd:dateTime ;
+        skos:definition "Website: https://www.bmfwf.gv.at/"@de ;
+        skos:inScheme <https://registry.inspire.gv.at/dataprovider> ;
+        skos:notation "0056" ;
+        skos:prefLabel "Bundesministerium für Frauen, Wissenschaft und Forschung (BMFWF)"@de ;
+        skos:topConceptOf <https://registry.inspire.gv.at/dataprovider> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/dataprovider/0061> a skos:Concept ;
+        dcterms:created "2025-10-16T19:40:05.735000+00:00"^^xsd:dateTime ;
+        skos:definition "Website: https://www.lfrz.gv.at/"@de ;
+        skos:inScheme <https://registry.inspire.gv.at/dataprovider> ;
+        skos:notation "0061" ;
+        skos:prefLabel "Land-, forst- und wasserwirtschaftliches Rechenzentrum GmbH (LFRZ)"@de ;
+        skos:topConceptOf <https://registry.inspire.gv.at/dataprovider> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/dataprovider/0064> a skos:Concept ;
+        dcterms:created "2025-10-16T19:40:05.735000+00:00"^^xsd:dateTime ;
+        skos:definition "Website: https://www.netzburgenland.at/"@de ;
+        skos:inScheme <https://registry.inspire.gv.at/dataprovider> ;
+        skos:notation "0064" ;
+        skos:prefLabel "Netz Burgenland GmbH"@de ;
+        skos:topConceptOf <https://registry.inspire.gv.at/dataprovider> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/dataprovider/0065> a skos:Concept ;
+        dcterms:created "2025-10-16T19:40:05.735000+00:00"^^xsd:dateTime ;
+        skos:definition "Website: https://www.netzooe.at/"@de ;
+        skos:inScheme <https://registry.inspire.gv.at/dataprovider> ;
+        skos:notation "0065" ;
+        skos:prefLabel "Netz Oberösterreich GmbH"@de ;
+        skos:topConceptOf <https://registry.inspire.gv.at/dataprovider> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/dataprovider/0067> a skos:Concept ;
+        dcterms:created "2025-10-16T19:40:05.735000+00:00"^^xsd:dateTime ;
+        skos:definition "Website: https://www.netz-noe.at/"@de ;
+        skos:inScheme <https://registry.inspire.gv.at/dataprovider> ;
+        skos:notation "0067" ;
+        skos:prefLabel "Netz Niederösterreich GmbH"@de ;
+        skos:topConceptOf <https://registry.inspire.gv.at/dataprovider> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/dataprovider/0068> a skos:Concept ;
+        dcterms:created "2025-10-16T19:40:05.735000+00:00"^^xsd:dateTime ;
+        skos:definition "Website: https://kaerntennetz.at/"@de ;
+        skos:inScheme <https://registry.inspire.gv.at/dataprovider> ;
+        skos:notation "0068" ;
+        skos:prefLabel "KNG-Kärnten Netz GmbH (Kärnten Netz)"@de ;
+        skos:topConceptOf <https://registry.inspire.gv.at/dataprovider> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/dataprovider/0078> a skos:Concept ;
+        dcterms:created "2025-10-16T19:40:05.735000+00:00"^^xsd:dateTime ;
+        skos:definition "Website: https://www.tinetz.at/"@de ;
+        skos:inScheme <https://registry.inspire.gv.at/dataprovider> ;
+        skos:notation "0078" ;
+        skos:prefLabel "TINETZ-Tiroler Netze GmbH (TINETZ)"@de ;
+        skos:topConceptOf <https://registry.inspire.gv.at/dataprovider> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/dataprovider/0080> a skos:Concept ;
+        dcterms:created "2025-10-16T19:40:05.735000+00:00"^^xsd:dateTime ;
+        skos:definition "Website: https://www.verbund.com/"@de ;
+        skos:inScheme <https://registry.inspire.gv.at/dataprovider> ;
+        skos:notation "0080" ;
+        skos:prefLabel "VERBUND Hydro Power GmbH"@de ;
+        skos:topConceptOf <https://registry.inspire.gv.at/dataprovider> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/dataprovider/0090> a skos:Concept ;
+        dcterms:created "2025-10-16T19:40:05.735000+00:00"^^xsd:dateTime ;
+        skos:definition "Website: https://bab.gv.at/"@de ;
+        skos:inScheme <https://registry.inspire.gv.at/dataprovider> ;
+        skos:notation "0090" ;
+        skos:prefLabel "Bundesanstalt für Agrarwirtschaft und Bergbauernfragen (BAB)"@de ;
+        skos:topConceptOf <https://registry.inspire.gv.at/dataprovider> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/dataprovider/0095> a skos:Concept ;
+        dcterms:created "2025-10-16T19:40:05.735000+00:00"^^xsd:dateTime ;
+        dcterms:relation <https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart>,
+            <https://registry.inspire.gv.at/codelist/referenzart>,
+            <https://registry.inspire.gv.at/codelist/schlagnutzungsart> ;
+        skos:definition "Website: https://www.ama.at/"@de ;
+        skos:inScheme <https://registry.inspire.gv.at/dataprovider> ;
+        skos:notation "0095" ;
+        skos:prefLabel "Agrarmarkt Austria (AMA)"@de ;
+        skos:topConceptOf <https://registry.inspire.gv.at/dataprovider> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/dataprovider/0111> a skos:Concept ;
+        dcterms:created "2025-10-16T19:40:05.735000+00:00"^^xsd:dateTime ;
+        skos:definition "Website: https://www.vorarlbergnetz.at/"@de ;
+        skos:inScheme <https://registry.inspire.gv.at/dataprovider> ;
+        skos:notation "0111" ;
+        skos:prefLabel "Vorarlberger Energienetze GmbH (Vorarlberg Netz)"@de ;
+        skos:topConceptOf <https://registry.inspire.gv.at/dataprovider> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/dataprovider/0115> a skos:Concept ;
+        dcterms:created "2025-10-16T19:40:05.735000+00:00"^^xsd:dateTime ;
+        skos:definition "Website: https://www.apg.at/"@de ;
+        skos:inScheme <https://registry.inspire.gv.at/dataprovider> ;
+        skos:notation "0115" ;
+        skos:prefLabel "Austrian Power Grid AG (APG)"@de ;
+        skos:topConceptOf <https://registry.inspire.gv.at/dataprovider> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/dataprovider/0130> a skos:Concept ;
+        dcterms:created "2025-10-16T19:40:05.735000+00:00"^^xsd:dateTime ;
+        skos:definition "Website: https://www.e-netze.at/"@de ;
+        skos:inScheme <https://registry.inspire.gv.at/dataprovider> ;
+        skos:notation "0130" ;
+        skos:prefLabel "Energienetze Steiermark GmbH"@de ;
+        skos:topConceptOf <https://registry.inspire.gv.at/dataprovider> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/dataprovider/0131> a skos:Concept ;
+        dcterms:created "2025-10-16T19:40:05.735000+00:00"^^xsd:dateTime ;
+        skos:definition "Website: https://www.noe.gv.at/noe/Mobilitaetsstrategie/OEVDAT.html"@de ;
+        skos:inScheme <https://registry.inspire.gv.at/dataprovider> ;
+        skos:notation "0131" ;
+        skos:prefLabel "Österreichisches Institut für Verkehrsdateninfrastruktur (ÖVDAT)"@de ;
+        skos:topConceptOf <https://registry.inspire.gv.at/dataprovider> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/dataprovider/0132> a skos:Concept ;
+        dcterms:created "2025-10-16T19:40:05.735000+00:00"^^xsd:dateTime ;
+        skos:definition "Website: https://www.geoland.at/"@de ;
+        skos:inScheme <https://registry.inspire.gv.at/dataprovider> ;
+        skos:notation "0132" ;
+        skos:prefLabel "geoland.at - das Geodatenportal der österreichischen Länder"@de ;
+        skos:topConceptOf <https://registry.inspire.gv.at/dataprovider> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/dataprovider/0133> a skos:Concept ;
+        dcterms:created "2025-10-16T19:40:05.735000+00:00"^^xsd:dateTime ;
+        skos:definition "Website: https://www.bmi.gv.at"@de ;
+        skos:inScheme <https://registry.inspire.gv.at/dataprovider> ;
+        skos:notation "0133" ;
+        skos:prefLabel "Bundesministerium für Inneres (BMI)"@de ;
+        skos:topConceptOf <https://registry.inspire.gv.at/dataprovider> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/dataprovider/0134> a skos:Concept ;
+        dcterms:created "2025-10-16T19:40:05.735000+00:00"^^xsd:dateTime ;
+        skos:definition "Website: https://www.geosphere.at/"@de ;
+        skos:inScheme <https://registry.inspire.gv.at/dataprovider> ;
+        skos:notation "0134" ;
+        skos:prefLabel "GeoSphere Austria – Bundesanstalt für Geologie, Geophysik, Klimatologie und Meteorologie"@de ;
+        skos:topConceptOf <https://registry.inspire.gv.at/dataprovider> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/dataprovider/0135> a skos:Concept ;
+        dcterms:created "2025-10-16T19:40:05.735000+00:00"^^xsd:dateTime ;
+        skos:definition "Website: https://www.sozialministerium.gv.at/"@de ;
+        skos:inScheme <https://registry.inspire.gv.at/dataprovider> ;
+        skos:notation "0135" ;
+        skos:prefLabel "Bundesministerium für Arbeit, Soziales, Gesundheit, Pflege und Konsumentenschutz"@de ;
+        skos:topConceptOf <https://registry.inspire.gv.at/dataprovider> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/dataprovider> a skos:ConceptScheme ;
+        dcterms:created "2025-10-16T19:38:29.926000+00:00"^^xsd:dateTime ;
+        dcterms:description "Das österreichische Geodatenstellenregister enthält die INSPIRE Datenanbieter."@de,
+            "The Austrian data provider register contains the contributing data providers."@en ;
+        dcterms:title "INSPIRE Datenanbieter"@de,
+            "INSPIRE data providers"@en ;
+        skos:hasTopConcept <https://registry.inspire.gv.at/dataprovider/0001>,
+            <https://registry.inspire.gv.at/dataprovider/0002>,
+            <https://registry.inspire.gv.at/dataprovider/0003>,
+            <https://registry.inspire.gv.at/dataprovider/0005>,
+            <https://registry.inspire.gv.at/dataprovider/0006>,
+            <https://registry.inspire.gv.at/dataprovider/0008>,
+            <https://registry.inspire.gv.at/dataprovider/0009>,
+            <https://registry.inspire.gv.at/dataprovider/0010>,
+            <https://registry.inspire.gv.at/dataprovider/0011>,
+            <https://registry.inspire.gv.at/dataprovider/0012>,
+            <https://registry.inspire.gv.at/dataprovider/0013>,
+            <https://registry.inspire.gv.at/dataprovider/0014>,
+            <https://registry.inspire.gv.at/dataprovider/0015>,
+            <https://registry.inspire.gv.at/dataprovider/0018>,
+            <https://registry.inspire.gv.at/dataprovider/0019>,
+            <https://registry.inspire.gv.at/dataprovider/0021>,
+            <https://registry.inspire.gv.at/dataprovider/0022>,
+            <https://registry.inspire.gv.at/dataprovider/0023>,
+            <https://registry.inspire.gv.at/dataprovider/0024>,
+            <https://registry.inspire.gv.at/dataprovider/0025>,
+            <https://registry.inspire.gv.at/dataprovider/0027>,
+            <https://registry.inspire.gv.at/dataprovider/0033>,
+            <https://registry.inspire.gv.at/dataprovider/0038>,
+            <https://registry.inspire.gv.at/dataprovider/0043>,
+            <https://registry.inspire.gv.at/dataprovider/0046>,
+            <https://registry.inspire.gv.at/dataprovider/0049>,
+            <https://registry.inspire.gv.at/dataprovider/0051>,
+            <https://registry.inspire.gv.at/dataprovider/0052>,
+            <https://registry.inspire.gv.at/dataprovider/0056>,
+            <https://registry.inspire.gv.at/dataprovider/0061>,
+            <https://registry.inspire.gv.at/dataprovider/0064>,
+            <https://registry.inspire.gv.at/dataprovider/0065>,
+            <https://registry.inspire.gv.at/dataprovider/0067>,
+            <https://registry.inspire.gv.at/dataprovider/0068>,
+            <https://registry.inspire.gv.at/dataprovider/0078>,
+            <https://registry.inspire.gv.at/dataprovider/0080>,
+            <https://registry.inspire.gv.at/dataprovider/0090>,
+            <https://registry.inspire.gv.at/dataprovider/0095>,
+            <https://registry.inspire.gv.at/dataprovider/0111>,
+            <https://registry.inspire.gv.at/dataprovider/0115>,
+            <https://registry.inspire.gv.at/dataprovider/0130>,
+            <https://registry.inspire.gv.at/dataprovider/0131>,
+            <https://registry.inspire.gv.at/dataprovider/0132>,
+            <https://registry.inspire.gv.at/dataprovider/0133>,
+            <https://registry.inspire.gv.at/dataprovider/0134>,
+            <https://registry.inspire.gv.at/dataprovider/0135> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+}
+

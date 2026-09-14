@@ -1,0 +1,47 @@
+URI	Notation	Label	Parent	Beschreibung	Anmerkung	Applikationsschema	Thema	Status
+https://registry.inspire.gv.at/dataprovider/0095	0095	Agrarmarkt Austria (AMA)		Website: https://www.ama.at/				http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0115	0115	Austrian Power Grid AG (APG)		Website: https://www.apg.at/				http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0012	0012	Austro Control		Website: https://www.austrocontrol.at/				http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0011	0011	Autobahnen- und Schnellstraßen-Finanzierungs-Aktiengesellschaft (ASFINAG)		Website: https://www.asfinag.at/				http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0002	0002	Bundesamt fürr Eich- und Vermessungswesen (BEV)		Website: https://www.bev.gv.at/				http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0090	0090	Bundesanstalt für Agrarwirtschaft und Bergbauernfragen (BAB)		Website: https://bab.gv.at/				http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0006	0006	Bundesforschungs- und Ausbildungszentrum für Wald, Naturgefahren und Landschaft (BFW)		Website: https://www.bfw.gv.at/				http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0043	0043	Bundeskanzleramt (BKA)		Website: https://www.bundeskanzleramt.gv.at/				http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0135	0135	Bundesministerium für Arbeit, Soziales, Gesundheit, Pflege und Konsumentenschutz		Website: https://www.sozialministerium.gv.at/				http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0003	0003	Bundesministerium für Finanzen (BMF)		Website: http://www.bmf.gv.at/				http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0056	0056	Bundesministerium für Frauen, Wissenschaft und Forschung (BMFWF)		Website: https://www.bmfwf.gv.at/				http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0133	0133	Bundesministerium für Inneres (BMI)		Website: https://www.bmi.gv.at				http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0010	0010	Bundesministerium für Innovation, Mobilität und Infrastruktur (BMIMI)		Website: https://www.bmimi.gv.at/				http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0005	0005	Bundesministerium für Land- und Forstwirtschaft, Klima- und Umweltschutz, Regionen und Wasserwirtschaft (BMLUK)		Website: https://www.bmluk.gv.at/				http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0049	0049	Bundesministerium für Landesverteidigung (BMLV)		Website: http://www.bmlv.gv.at/				http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0051	0051	Bundesministerium für Wirtschaft, Energie und Tourismus (BMWET)		Website: https://www.bmwet.gv.at/				http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0130	0130	Energienetze Steiermark GmbH		Website: https://www.e-netze.at/				http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0009	0009	Forsttechnischer Dienst für Wildbach- und Lawinenverbauung (WLV)		Website: https://www.die-wildbach.at/				http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0134	0134	GeoSphere Austria – Bundesanstalt für Geologie, Geophysik, Klimatologie und Meteorologie		Website: https://www.geosphere.at/				http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0015	0015	Geologische Bundesanstalt (GBA)		Website: https://www.geologie.ac.at/				http://inspire.ec.europa.eu/registry/status/retired
+https://registry.inspire.gv.at/dataprovider/0068	0068	KNG-Kärnten Netz GmbH (Kärnten Netz)		Website: https://kaerntennetz.at/				http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0018	0018	Land Burgenland / Amt der Burgenländischen Landesregierung		Website: https://www.burgenland.at/				http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0019	0019	Land Kärnten / Amt der Kärntner Landesregierung		Website: https://www.ktn.gv.at/				http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0046	0046	Land Niederösterreich / Amt der Niederösterreichischen Landesregierung		Website: https://www.noe.gv.at/				http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0021	0021	Land Oberösterreich / Amt der Oberösterreichischen Landesregierung		Website: https://www.land-oberoesterreich.gv.at/				http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0022	0022	Land Salzburg / Amt der Salzburger Landesregierung		Website: https://www.salzburg.gv.at/				http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0023	0023	Land Steiermark / Amt der Steiermärkischen Landesregierung		Website: https://www.verwaltung.steiermark.at/				http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0024	0024	Land Tirol / Amt der Tiroler Landesregierung		Website: https://www.tirol.gv.at/				http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0025	0025	Land Vorarlberg / Amt der Vorarlberger Landesregierung		Website: https://vorarlberg.at/				http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0052	0052	Land Wien / Amt der Wiener Landesregierung		Website: https://www.wien.gv.at/				http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0061	0061	Land-, forst- und wasserwirtschaftliches Rechenzentrum GmbH (LFRZ)		Website: https://www.lfrz.gv.at/				http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0064	0064	Netz Burgenland GmbH		Website: https://www.netzburgenland.at/				http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0067	0067	Netz Niederösterreich GmbH		Website: https://www.netz-noe.at/				http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0065	0065	Netz Oberösterreich GmbH		Website: https://www.netzooe.at/				http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0033	0033	Salzburg AG für Energie, Verkehr & Telekommunikation (Salzburg AG)		Website: https://www.salzburg-ag.at/				http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0027	0027	Statistik Austria		Website: https://www.statistik.at/				http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0078	0078	TINETZ-Tiroler Netze GmbH (TINETZ)		Website: https://www.tinetz.at/				http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0008	0008	Umweltbundesamt GmbH		Website: https://www.umweltbundesamt.at/				http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0080	0080	VERBUND Hydro Power GmbH		Website: https://www.verbund.com/				http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0111	0111	Vorarlberger Energienetze GmbH (Vorarlberg Netz)		Website: https://www.vorarlbergnetz.at/				http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0038	0038	Zentralanstalt für Meteorologie und Geodynamik (ZAMG)		Website: https://www.zamg.ac.at/				http://inspire.ec.europa.eu/registry/status/retired
+https://registry.inspire.gv.at/dataprovider/0132	0132	geoland.at - das Geodatenportal der österreichischen Länder		Website: https://www.geoland.at/				http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0014	0014	via donau - Österreichische Wasserstraßen-GmbH (viadonau)		Website: https://www.viadonau.org/				http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0013	0013	ÖBB-Infrastruktur AG (ÖBB Infra)		Website: https://infrastruktur.oebb.at/				http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0001	0001	Österreichische Agentur für Gesundheit und Ernährungssicherheit GmbH (AGES)		Website: https://www.ages.at/				http://inspire.ec.europa.eu/registry/status/valid
+https://registry.inspire.gv.at/dataprovider/0131	0131	Österreichisches Institut für Verkehrsdateninfrastruktur (ÖVDAT)		Website: https://www.noe.gv.at/noe/Mobilitaetsstrategie/OEVDAT.html				http://inspire.ec.europa.eu/registry/status/valid

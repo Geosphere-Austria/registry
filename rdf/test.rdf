@@ -1,0 +1,36 @@
+<https://registry.inspire.gv.at/dataprovider/0134>
+        a       <http://www.w3.org/2006/vcard/ns#VCard>;
+        <http://www.w3.org/2006/vcard/ns#adr>
+                [ a       <http://www.w3.org/2006/vcard/ns#Work>;
+                  <http://www.w3.org/2006/vcard/ns#country-name>
+                          "Austria";
+                  <http://www.w3.org/2006/vcard/ns#locality>
+                          "Vienna";
+                  <http://www.w3.org/2006/vcard/ns#postal-code>
+                          "1190";
+                  <http://www.w3.org/2006/vcard/ns#street-address>
+                          "Hohe Warte 38"
+                ];
+        <http://www.w3.org/2006/vcard/ns#email>
+                <mailto:kontakt@geosphere.at>;
+        <http://www.w3.org/2006/vcard/ns#fn>
+                "GeoSphere Austria";
+        <http://www.w3.org/2006/vcard/ns#geo>
+                [ <http://www.w3.org/2006/vcard/ns#latitude>
+                          "48.2485";
+                  <http://www.w3.org/2006/vcard/ns#longitude>
+                          "16.3558"
+                ];
+        <http://www.w3.org/2006/vcard/ns#logo>
+                <https://upload.wikimedia.org/wikipedia/commons/c/ce/GeoSphere_Austria.svg>;
+        <http://www.w3.org/2006/vcard/ns#org>
+                [ <http://www.w3.org/2006/vcard/ns#organisation-name>
+                          "GeoSphere Austria - Zentrale";
+                  <http://www.w3.org/2006/vcard/ns#organisation-unit>
+                          "head quarter"
+                ];
+        <http://www.w3.org/2006/vcard/ns#tel>
+                [ a       <http://www.w3.org/2006/vcard/ns#Work>;
+                  <http://www.w3.org/1999/02/22-rdf-syntax-ns#value>
+                          "+43 1 36026"
+                ] .
