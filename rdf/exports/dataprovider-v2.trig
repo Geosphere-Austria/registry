@@ -1,5 +1,6 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix ns1: <http://www.w3.org/ns/adms#> .
+@prefix ns2: <http://purl.org/linked-data/registry#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -128,15 +129,6 @@
         skos:topConceptOf <https://registry.inspire.gv.at/dataprovider> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
-    <https://registry.inspire.gv.at/dataprovider/0015> a skos:Concept ;
-        dcterms:created "2025-10-16T19:40:05.735000+00:00"^^xsd:dateTime ;
-        skos:definition "Website: https://www.geologie.ac.at/"@de ;
-        skos:inScheme <https://registry.inspire.gv.at/dataprovider> ;
-        skos:notation "0015" ;
-        skos:prefLabel "Geologische Bundesanstalt (GBA)"@de ;
-        skos:topConceptOf <https://registry.inspire.gv.at/dataprovider> ;
-        ns1:status <http://inspire.ec.europa.eu/registry/status/retired> .
-
     <https://registry.inspire.gv.at/dataprovider/0018> a skos:Concept ;
         dcterms:created "2025-10-16T19:40:05.735000+00:00"^^xsd:dateTime ;
         dcterms:relation <https://registry.inspire.gv.at/codelist/bglLandUseValue> ;
@@ -225,15 +217,6 @@
         skos:prefLabel "Salzburg AG für Energie, Verkehr & Telekommunikation (Salzburg AG)"@de ;
         skos:topConceptOf <https://registry.inspire.gv.at/dataprovider> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
-
-    <https://registry.inspire.gv.at/dataprovider/0038> a skos:Concept ;
-        dcterms:created "2025-10-16T19:40:05.735000+00:00"^^xsd:dateTime ;
-        skos:definition "Website: https://www.zamg.ac.at/"@de ;
-        skos:inScheme <https://registry.inspire.gv.at/dataprovider> ;
-        skos:notation "0038" ;
-        skos:prefLabel "Zentralanstalt für Meteorologie und Geodynamik (ZAMG)"@de ;
-        skos:topConceptOf <https://registry.inspire.gv.at/dataprovider> ;
-        ns1:status <http://inspire.ec.europa.eu/registry/status/retired> .
 
     <https://registry.inspire.gv.at/dataprovider/0043> a skos:Concept ;
         dcterms:created "2025-10-16T19:40:05.735000+00:00"^^xsd:dateTime ;
@@ -430,21 +413,43 @@
         skos:topConceptOf <https://registry.inspire.gv.at/dataprovider> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 
-    <https://registry.inspire.gv.at/dataprovider/0134> a skos:Concept ;
-        dcterms:created "2025-10-16T19:40:05.735000+00:00"^^xsd:dateTime ;
-        skos:definition "Website: https://www.geosphere.at/"@de ;
-        skos:inScheme <https://registry.inspire.gv.at/dataprovider> ;
-        skos:notation "0134" ;
-        skos:prefLabel "GeoSphere Austria – Bundesanstalt für Geologie, Geophysik, Klimatologie und Meteorologie"@de ;
-        skos:topConceptOf <https://registry.inspire.gv.at/dataprovider> ;
-        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
-
     <https://registry.inspire.gv.at/dataprovider/0135> a skos:Concept ;
         dcterms:created "2025-10-16T19:40:05.735000+00:00"^^xsd:dateTime ;
         skos:definition "Website: https://www.sozialministerium.gv.at/"@de ;
         skos:inScheme <https://registry.inspire.gv.at/dataprovider> ;
         skos:notation "0135" ;
         skos:prefLabel "Bundesministerium für Arbeit, Soziales, Gesundheit, Pflege und Konsumentenschutz"@de ;
+        skos:topConceptOf <https://registry.inspire.gv.at/dataprovider> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
+
+    <https://registry.inspire.gv.at/dataprovider/0015> a skos:Concept ;
+        dcterms:created "2025-10-16T19:40:05.735000+00:00"^^xsd:dateTime ;
+        ns2:successor <https://registry.inspire.gv.at/dataprovider/0134> ;
+        skos:definition "Die 1849 gegründete Geologische Bundesanstalt war eine dem Bundesministerium für Bildung, Wissenschaft und Forschung (BMBWF) nachgeordnete Dienststelle, die der Bundesrepublik und deren staatlichen Aufgaben als zentrale Informations- und Beratungsstelle im Fachbereich der Geowissenschaften diente. Mit 1. Jänner 2023 fusionierte die Geologische Bundesanstalt mit der Zentralanstalt für Meteorologie und Geodynamik (ZAMG) zur neuen Bundesanstalt GeoSphere Austria. (aus Wien Geschichte Wiki)"@de ;
+        skos:inScheme <https://registry.inspire.gv.at/dataprovider> ;
+        skos:notation "0015" ;
+        skos:prefLabel "Geologische Bundesanstalt (GBA)"@de ;
+        skos:topConceptOf <https://registry.inspire.gv.at/dataprovider> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/retired> .
+
+    <https://registry.inspire.gv.at/dataprovider/0038> a skos:Concept ;
+        dcterms:created "2025-10-16T19:40:05.735000+00:00"^^xsd:dateTime ;
+        ns2:successor <https://registry.inspire.gv.at/dataprovider/0134> ;
+        skos:definition "Die 1851 gegründete Zentralanstalt für Meteorologie und Geodynamik (19., Hohe Warte 38-40; auch ZAMG oder Hohe Warte) war der staatliche meteorologische und geophysikalische Dienst der Monarchie später der Republik Österreich. Mit 1. Jänner 2023 fusioniert die Zentralanstalt für Meteorologie und Geodynamik mit der Geologischen Bundesanstalt zur neuen Bundesanstalt GeoSphere Austria. (aus Wien Geschichte Wiki)"@de ;
+        skos:inScheme <https://registry.inspire.gv.at/dataprovider> ;
+        skos:notation "0038" ;
+        skos:prefLabel "Zentralanstalt für Meteorologie und Geodynamik (ZAMG)"@de ;
+        skos:topConceptOf <https://registry.inspire.gv.at/dataprovider> ;
+        ns1:status <http://inspire.ec.europa.eu/registry/status/retired> .
+
+    <https://registry.inspire.gv.at/dataprovider/0134> a skos:Concept ;
+        dcterms:created "2025-10-16T19:40:05.735000+00:00"^^xsd:dateTime ;
+        ns2:predecessor <https://registry.inspire.gv.at/dataprovider/0015>,
+            <https://registry.inspire.gv.at/dataprovider/0038> ;
+        skos:definition "Website: https://www.geosphere.at/"@de ;
+        skos:inScheme <https://registry.inspire.gv.at/dataprovider> ;
+        skos:notation "0134" ;
+        skos:prefLabel "GeoSphere Austria - Bundesanstalt für Geologie, Geophysik, Klimatologie und Meteorologie"@de ;
         skos:topConceptOf <https://registry.inspire.gv.at/dataprovider> ;
         ns1:status <http://inspire.ec.europa.eu/registry/status/valid> .
 

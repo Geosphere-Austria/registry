@@ -505,12 +505,23 @@ function showCodelist(uri, cl) {
                 let version = jsonData.results.bindings[0].g.value.split(':')[2];
                 const fileName = 'rdf/exports/' + cl + '-v' + version;
                 const $meta = $('<div>', { class: 'mb-3' });
-                $meta.append(document.createTextNode(`This version: ${jsonData.results.bindings[0].g.value}`));
-                $meta.append($('<br>'));
+                $meta.append(document.createTextNode('This version:  '));
+                    $meta.append($('<a>', {
+                        href: `${fileName}.rdf`,
+                        text: `${uri}:${parseInt(version)}`
+                    }));
+                    $meta.append($('<br>'));
+                    
+                    
+                    
+                    //`This version: ${jsonData.results.bindings[0].g.value}`));
+
+
+                //$meta.append($('<br>'));
                 if (parseInt(version) > 1) {
                     $meta.append(document.createTextNode('Version history:  '));
                     $meta.append($('<a>', {
-                        href: `${fileName}.rdf`,
+                        href: `${fileName.split('-v')[0]}-v${parseInt(version) - 1}.rdf`,
                         text: `${uri}:${parseInt(version) - 1}`
                     }));
                     $meta.append($('<br>'));
@@ -1361,7 +1372,7 @@ function shortenText(htmlText) {
     ];
     for (const [name, prefix] of abbrevList) {
         htmlText = htmlText.split('>' + prefix).map(a => a.replace('<', ` (${name})<`)).join('>').replace(` (${name})`, '');
-    } console.log(htmlText);
+    } //console.log(htmlText);
     return htmlText;
 }
 
