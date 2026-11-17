@@ -1,4 +1,4 @@
-URI|Notation|Label|Parent|Beschreibung|Anmerkung|Applikationsschema|Thema|Status
+﻿URI|Notation|Label|Parent|Beschreibung|Anmerkung|Applikationsschema|Thema|Status
 https://registry.inspire.gv.at/codelist/SoilType_BORIS_S322/2120|2120|Anmoor|Moore, Anmoore und Feuchtschwarzerden|Anmoor (MN)|INSPIRE governance level: national-technical|http://inspire.ec.europa.eu/applicationschema/so|http://inspire.ec.europa.eu/theme/so|http://inspire.ec.europa.eu/registry/status/valid
 https://registry.inspire.gv.at/codelist/SoilType_BORIS_S322/1810|1810|Auboden|Auboeden|Auboden (AT)|INSPIRE governance level: national-technical|http://inspire.ec.europa.eu/applicationschema/so|http://inspire.ec.europa.eu/theme/so|http://inspire.ec.europa.eu/registry/status/valid
 https://registry.inspire.gv.at/codelist/SoilType_BORIS_S322/1800|1800|Auboeden||Auboeden|INSPIRE governance level: national-technical|http://inspire.ec.europa.eu/applicationschema/so|http://inspire.ec.europa.eu/theme/so|http://inspire.ec.europa.eu/registry/status/valid

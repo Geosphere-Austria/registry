@@ -1,4 +1,4 @@
-URI|Notation|Label|Parent|Beschreibung|Anmerkung|Applikationsschema|Thema|Status
+﻿URI|Notation|Label|Parent|Beschreibung|Anmerkung|Applikationsschema|Thema|Status
 https://registry.inspire.gv.at/dataprovider/0095|0095|Agrarmarkt Austria (AMA)||Website: https://www.ama.at/||||http://inspire.ec.europa.eu/registry/status/valid
 https://registry.inspire.gv.at/dataprovider/0115|0115|Austrian Power Grid AG (APG)||Website: https://www.apg.at/||||http://inspire.ec.europa.eu/registry/status/valid
 https://registry.inspire.gv.at/dataprovider/0012|0012|Austro Control||Website: https://www.austrocontrol.at/||||http://inspire.ec.europa.eu/registry/status/valid

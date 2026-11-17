@@ -1,4 +1,4 @@
-URI|Notation|Label|Parent|Beschreibung|Anmerkung|Applikationsschema|Thema|Status
+﻿URI|Notation|Label|Parent|Beschreibung|Anmerkung|Applikationsschema|Thema|Status
 https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1201|1201|Anmoor||Anmoor|INSPIRE governance level: national-technical|http://inspire.ec.europa.eu/applicationschema/so|http://inspire.ec.europa.eu/theme/so|http://inspire.ec.europa.eu/registry/status/valid
 https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1300|1300|Aubodengruppe||Aubodengruppe|INSPIRE governance level: national-technical|http://inspire.ec.europa.eu/applicationschema/so|http://inspire.ec.europa.eu/theme/so|http://inspire.ec.europa.eu/registry/status/valid
 https://registry.inspire.gv.at/codelist/SoilType_BORIS_S172/1803|1803|Brauner Tschernosem|Schwarzerdegruppe|Brauner Tschernosem|INSPIRE governance level: national-technical|http://inspire.ec.europa.eu/applicationschema/so|http://inspire.ec.europa.eu/theme/so|http://inspire.ec.europa.eu/registry/status/valid

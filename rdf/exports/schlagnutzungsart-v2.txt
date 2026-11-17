@@ -1,4 +1,4 @@
-URI|Notation|Label|Parent|Beschreibung|Anmerkung|Applikationsschema|Thema|Status
+﻿URI|Notation|Label|Parent|Beschreibung|Anmerkung|Applikationsschema|Thema|Status
 https://registry.inspire.gv.at/codelist/schlagnutzungsart/959|959|20 JAEHRIGE STILLLEGUNG||20 JAEHRIGE STILLLEGUNG|INSPIRE governance level: national-technical|http://inspire.ec.europa.eu/applicationschema/lunom|http://inspire.ec.europa.eu/theme/lu|http://inspire.ec.europa.eu/registry/status/valid
 https://registry.inspire.gv.at/codelist/schlagnutzungsart/202|202|ACKERBOHNEN (PUFFBOHNEN)||ACKERBOHNEN (PUFFBOHNEN)|INSPIRE governance level: national-technical|http://inspire.ec.europa.eu/applicationschema/lunom|http://inspire.ec.europa.eu/theme/lu|http://inspire.ec.europa.eu/registry/status/valid
 https://registry.inspire.gv.at/codelist/schlagnutzungsart/205|205|ACKERBOHNEN (PUFFBOHNEN) / FELDGEMUESE||ACKERBOHNEN (PUFFBOHNEN) / FELDGEMUESE|INSPIRE governance level: national-technical|http://inspire.ec.europa.eu/applicationschema/lunom|http://inspire.ec.europa.eu/theme/lu|http://inspire.ec.europa.eu/registry/status/valid

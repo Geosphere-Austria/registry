@@ -1,4 +1,4 @@
-URI|Notation|Label|Parent|Beschreibung|Anmerkung|Applikationsschema|Thema|Status
+﻿URI|Notation|Label|Parent|Beschreibung|Anmerkung|Applikationsschema|Thema|Status
 https://registry.inspire.gv.at/codelist/Biotoptypen_AT/11_1|11_1|Abbaubereiche in Abbau|TECHNISCHE BIOTOPTYPEN, SIEDLUNGSBIOTOPTYPEN||INSPIRE governance level: national-technical|http://inspire.ec.europa.eu/applicationschema/hb|http://inspire.ec.europa.eu/theme/hb|http://inspire.ec.europa.eu/registry/status/valid
 https://registry.inspire.gv.at/codelist/Biotoptypen_AT/11_2_5|11_2_5|Abraumhalde|Aufschuettungsflaechen und Halden|https://eunis.eea.europa.eu/habitats/1610|INSPIRE governance level: national-technical|http://inspire.ec.europa.eu/applicationschema/hb|http://inspire.ec.europa.eu/theme/hb|http://inspire.ec.europa.eu/registry/status/valid
 https://registry.inspire.gv.at/codelist/Biotoptypen_AT/11_7_2|11_7_2|Absetzbecken und Schlammdeponie|Flaechen der Abfallwirtschaft|https://eunis.eea.europa.eu/habitats/414|INSPIRE governance level: national-technical|http://inspire.ec.europa.eu/applicationschema/hb|http://inspire.ec.europa.eu/theme/hb|http://inspire.ec.europa.eu/registry/status/valid

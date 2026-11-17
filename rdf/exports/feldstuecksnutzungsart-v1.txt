@@ -1,4 +1,4 @@
-URI|Notation|Label|Parent|Beschreibung|Anmerkung|Applikationsschema|Thema|Status
+﻿URI|Notation|Label|Parent|Beschreibung|Anmerkung|Applikationsschema|Thema|Status
 https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/AN|AN|ACKER NICHT KPF BEIHILFEFÄHIG||ACKER NICHT KPF BEIHILFEFÄHIG|INSPIRE governance level: national-technical|http://inspire.ec.europa.eu/applicationschema/lunom|http://inspire.ec.europa.eu/theme/lu|http://inspire.ec.europa.eu/registry/status/valid
 https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/A|A|ACKERLAND||ACKERLAND|INSPIRE governance level: national-technical|http://inspire.ec.europa.eu/applicationschema/lunom|http://inspire.ec.europa.eu/theme/lu|http://inspire.ec.europa.eu/registry/status/valid
 https://registry.inspire.gv.at/codelist/feldstuecksnutzungsart/L|L|ALMEN||ALMEN|INSPIRE governance level: national-technical|http://inspire.ec.europa.eu/applicationschema/lunom|http://inspire.ec.europa.eu/theme/lu|http://inspire.ec.europa.eu/registry/status/valid

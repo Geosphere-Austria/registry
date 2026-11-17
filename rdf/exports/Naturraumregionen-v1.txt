@@ -1,4 +1,4 @@
-URI|Notation|Label|Parent|Beschreibung|Anmerkung|Applikationsschema|Thema|Status
+﻿URI|Notation|Label|Parent|Beschreibung|Anmerkung|Applikationsschema|Thema|Status
 https://registry.inspire.gv.at/codelist/Naturraumregionen/ALP|ALP|Alpine Region||entspricht der alpinen biogeographischen Region|INSPIRE governance level: national-technical|http://inspire.ec.europa.eu/applicationschema/br|http://inspire.ec.europa.eu/theme/br|http://inspire.ec.europa.eu/registry/status/valid
 https://registry.inspire.gv.at/codelist/Naturraumregionen/KlBeck|KlBeck|Klagenfurter Becken|Alpine Region|Kärntner Becken- und Tallandschaften|INSPIRE governance level: national-technical|http://inspire.ec.europa.eu/applicationschema/br|http://inspire.ec.europa.eu/theme/br|http://inspire.ec.europa.eu/registry/status/valid
 https://registry.inspire.gv.at/codelist/Naturraumregionen/KONT|KONT|Kontinentale Region||entspricht der kontinentalen biogeographischen Region|INSPIRE governance level: national-technical|http://inspire.ec.europa.eu/applicationschema/br|http://inspire.ec.europa.eu/theme/br|http://inspire.ec.europa.eu/registry/status/valid

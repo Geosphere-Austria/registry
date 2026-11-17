@@ -1,4 +1,4 @@
-URI|Notation|Label|Parent|Beschreibung|Anmerkung|Applikationsschema|Thema|Status
+﻿URI|Notation|Label|Parent|Beschreibung|Anmerkung|Applikationsschema|Thema|Status
 https://registry.inspire.gv.at/codelist/ktnLandUseValue/A1|A1|Bauland - Dorfgebiet||Bauland - Dorfgebiet|INSPIRE governance level: national-technical|http://inspire.ec.europa.eu/applicationschema/lunom|http://inspire.ec.europa.eu/theme/lu|http://inspire.ec.europa.eu/registry/status/valid
 https://registry.inspire.gv.at/codelist/ktnLandUseValue/A4|A4|Bauland - Gemischtes Baugebiet||Bauland - Gemischtes Baugebiet|INSPIRE governance level: national-technical|http://inspire.ec.europa.eu/applicationschema/lunom|http://inspire.ec.europa.eu/theme/lu|http://inspire.ec.europa.eu/registry/status/valid
 https://registry.inspire.gv.at/codelist/ktnLandUseValue/A5|A5|Bauland - Geschaeftsgebiet||Bauland - Geschaeftsgebiet|INSPIRE governance level: national-technical|http://inspire.ec.europa.eu/applicationschema/lunom|http://inspire.ec.europa.eu/theme/lu|http://inspire.ec.europa.eu/registry/status/valid

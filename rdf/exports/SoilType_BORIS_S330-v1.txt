@@ -1,4 +1,4 @@
-URI|Notation|Label|Parent|Beschreibung|Anmerkung|Applikationsschema|Thema|Status
+﻿URI|Notation|Label|Parent|Beschreibung|Anmerkung|Applikationsschema|Thema|Status
 https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/2120|2120|Anmoor|Moore, Anmoore und Feuchtschwarzerden|Anmoor|INSPIRE governance level: national-technical|http://inspire.ec.europa.eu/applicationschema/so|http://inspire.ec.europa.eu/theme/so|http://inspire.ec.europa.eu/registry/status/valid
 https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/2032|2032|Anmooriger Hanggley|Hanggley (Quellgley)|Anmooriger Hanggley|INSPIRE governance level: national-technical|http://inspire.ec.europa.eu/applicationschema/so|http://inspire.ec.europa.eu/theme/so|http://inspire.ec.europa.eu/registry/status/valid
 https://registry.inspire.gv.at/codelist/SoilType_BORIS_S330/2022|2022|Anmooriger Naßgley|Naßgley|Anmooriger Naßgley|INSPIRE governance level: national-technical|http://inspire.ec.europa.eu/applicationschema/so|http://inspire.ec.europa.eu/theme/so|http://inspire.ec.europa.eu/registry/status/valid
